@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Learn Coding Online | Treehouse
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="img/jpeg/favicon.jpg">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!-- fixed floating bar -->
+        <div class="floatBAR">
+           <ul class="nav_list" style="list-style: none; margin-right: 135px; width: 1400px;">
+               <li class="nav-item">
+                   <h6 class="nav-item-logo-container">
+                       <a href="https://teamtreehouse.com/" id="featurette-1">
+                       <svg xmlns="http://www.w3.org/2000/svg" alt="" class="nav-item-logo-icon" preserveAspectRatio="xMinYMin meet" viewBox="0 0 139 32" aria-labelledby="treehouseLogo788521" role="img" style="display:block; width: 139px; height:32px; fill: #5fcf80;"><title id="treehouseLogo788521">Treehouse Logo</title><path class="icon-treehouse" style="fill: #3e474f;" d="M42.8 21.1c-0.4 0.1-0.9 0.2-1.4 0.2 -1 0-1.4-0.6-1.4-1.6v-4.5h2.8c0.7 0 1.4-0.5 1.4-1.3s-0.6-1.3-1.4-1.3H40v-1.5c0-0.9-0.7-1.5-1.5-1.5S37 10.3 37 11.1v8.7c0 2.5 1.2 4.3 4 4.3 0.8 0 1.9-0.1 2.7-0.5 0.7-0.3 0.9-0.8 0.9-1.3C44.6 21.6 43.9 20.9 42.8 21.1zM52.8 12.2c-0.4-0.1-1.2-0.2-1.9-0.2 -2.5 0-3.9 1.5-3.9 3.8v6.8c0 0.8 0.7 1.5 1.5 1.5s1.5-0.7 1.5-1.5v-6.2c0-1 0.4-1.4 1.1-1.4s1.1 0.2 1.7 0.2c0.9 0 1.4-0.8 1.4-1.4C54.1 13 53.7 12.5 52.8 12.2zM61.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C66 14 64 12 61.1 12zM63 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C63.2 17 63.2 17.1 63 17.1zM73.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C78 14 76 12 73.1 12zM75 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C75.2 17 75.2 17.1 75 17.1zM123.6 17l-1.6-0.4c-1-0.2-1.3-0.5-1.3-1s0.5-0.9 1.6-0.9c0.6 0 1.3 0.2 1.9 0.5 0.7 0.4 1.5 0.3 1.9-0.2 0.5-0.5 0.5-1.4-0.1-2 -0.8-0.6-2.2-1-3.6-1 -2.6 0-4.5 1.3-4.5 3.7 0 1.9 1.4 2.9 3.2 3.4 0.9 0.2 0.8 0.2 1.6 0.4 0.9 0.2 1.3 0.6 1.3 1 0 0.6-0.5 1-1.7 1 -1 0-1.9-0.3-2.6-0.7 -0.7-0.5-1.5-0.3-1.9 0.3 -0.4 0.6-0.3 1.4 0.3 1.8 0.8 0.7 2.1 1.3 4.2 1.3 2.6 0 4.6-1.4 4.6-3.8C126.9 18.6 125.8 17.5 123.6 17zM137.5 19.1c1 0 1.5-0.6 1.5-1.5l0 0v-0.5c0-3.1-2-5.1-4.9-5.1 -2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3H137.5zM134.1 14.6c1.4 0 2.2 0.9 2.1 2.2 0 0.2-0.1 0.3-0.2 0.3h-4.2C131.8 15.6 132.6 14.6 134.1 14.6zM97.5 12c-3 0-5.2 1.9-5.5 4.5 -0.1 0.9-0.1 2.3 0 3.2 0.2 2.6 2.5 4.5 5.5 4.5s5.2-1.9 5.4-4.5c0.1-0.9 0.1-2.2 0-3.1C102.7 13.9 100.5 12 97.5 12zM99.9 19.2c-0.1 1.3-1 2.1-2.4 2.1s-2.3-0.9-2.4-2.1c0-0.6 0-1.6 0-2.2 0.1-1.3 1-2.1 2.4-2.1s2.3 0.9 2.4 2.1C100 17.6 100 18.6 99.9 19.2zM85.6 12c-1.1 0-2.3 0.4-2.7 0.9l0 0V9.7c0-0.9-0.6-1.5-1.4-1.5s-1.4 0.7-1.4 1.5v12.9c0 0.8 0.7 1.5 1.5 1.5s1.4-0.7 1.4-1.5v-6.7c0.5-0.5 1.3-0.9 2.3-0.9 1.2 0 1.9 0.7 1.9 2.1v5.5c0 0.9 0.6 1.6 1.4 1.6 0.9 0 1.5-0.7 1.5-1.6v-5.7C90 13.7 88.4 12 85.6 12zM113.6 12.1c-0.8 0-1.5 0.7-1.5 1.5v7.1c-0.5 0.3-1.2 0.6-2.1 0.6 -1.2 0-2.1-0.7-2.1-2.1v-5.6c0-0.9-0.7-1.6-1.5-1.6 -0.9 0-1.4 0.7-1.4 1.6v5.7c0 3.1 1.8 4.8 4.9 4.8 2.3 0 3.9-0.8 4.6-1.3 0.4-0.2 0.5-0.5 0.5-1v-8.2C115 12.8 114.4 12.1 113.6 12.1z"></path><path class="icon-logo" d="M26 5.9c-1.1-0.6-2.8 0.4-3.8 2.2l-1.9 3.2c-0.7 1.3-0.6 2.9 0.3 4.2l0.1 0.1c0.9 1.2 2 2.4 2.4 2.8 0.2 0.2 0.4 0.5 0.5 0.9 0.3 1.1-0.3 2.3-1.5 2.6 -1.1 0.3-2.3-0.3-2.6-1.5 -0.1-0.3-0.1-0.6-0.1-0.8 0.1-0.5-0.1-1.2-0.8-2 -0.7-0.7-2 0.7-2.5 2.1v0.1c-0.4 1.4-0.7 2.7-0.6 2.8 0 0.1 0.1 0.1 0.1 0.2 0.6 1.2 0.2 2.6-1 3.2s-2.6 0.2-3.2-1 -0.2-2.6 1-3.2c0.1 0 0.1-0.1 0.2-0.1s0.3-0.6 0.6-1.4c0.2-0.7 0.3-1 0.4-1.3 0.1-0.4 0.3-1.4 0.2-1.8 -0.1-0.5-0.6-0.5-1.1-0.2 -0.3 0.2-0.9 0.7-1.1 0.9 -0.5 0.4-0.9 1-1.1 1.5 -0.1 0.2-0.3 0.5-0.5 0.7 -0.9 0.7-2.2 0.6-3-0.3 -0.7-0.9-0.6-2.2 0.3-3 0.3-0.2 0.6-0.4 0.9-0.4 0.5-0.1 2.3-1.2 3.4-2 0.2-0.1 0.5-0.4 0.6-0.5 0.3-0.4 0-0.7-0.3-0.7 -0.9 0.1-1.9 0.2-2.1 0.5 -0.1 0.1-0.2 0.3-0.4 0.4 -0.8 0.6-2 0.4-2.6-0.4s-0.4-2 0.4-2.6c0.3-0.3 0.8-0.4 1.1-0.4 0.7 0 2.5 0.4 3.9 0.1l0.4-0.1c1.5-0.3 3.3-1.6 4-2.9 0 0 0.7-1.2 1.5-2.7C19 3.6 18.9 1.9 18 1.4l-1.7-1c-0.9-0.5-2.2-0.5-3.1 0L1.6 7C0.7 7.5 0 8.7 0 9.7v12.8c0 1 0.7 2.2 1.6 2.7l11.6 6.6c0.9 0.5 2.3 0.5 3.1 0l11.6-6.6c0.9-0.5 1.6-1.7 1.6-2.7V9.7c0-1-0.7-2.2-1.6-2.7C27.9 7 27.1 6.5 26 5.9z"></path>
+                       </svg>
+                        </a>
+                   </h6>
+                </li>
+                <li class="nav-item">
+                    <a href="https://teamtreehouse.com/courses" class="toggle-steps" >Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://teamtreehouse.com/techdegree" class="toggle-steps">Techdegree</a>
+               </li>
+               <li class="nav-item">
+                    <a href="https://teamtreehouse.com/teams" class="toggle-steps">Teams</a>
+               </li>
+               <li class="nav-item">
+                    <a href="https://teamtreehouse.com/signin?return_to=%2Fhome" class="toggle-steps">Sign In</a>
+               </li>
+               <li class="nav-item">
+                   <button onclick="https://teamtreehouse.com/subscribe/new?trial=yes" class="nav-item-logo">Free Trial</button>
+               </li>
+            </ul> 
+
+        </div> 
+
+
+        <div class="main_body">
+
+            <!-- top blue background -->
+            <section class="topBlue_BG">
+                <img src="img/jpeg/top_bg.jpg" alt="x" id="blue_img">
+            </section>
+            <header class="text_inside" style="text-align: center; left: 20%;">
+                <h1 class="text_1" style="color: #fff; position: absolute; top: 1%; width: 470%; left: 20%; font-size: 1.8em;">Best online coding for at-home learning</h1>
+                <h2 class="text_2" style="color: #fff; position: absolute; top: 29%; width: 470%; left: 30%; font-size: 3em;">Learn programming,design, and more-all on your own time</h2>
+            </header>
+
+            <!-- e-mail registration form -->
+            <section class="top_form">
+                <div class="form_card">
+                    <p class="form_banner" style="left: 25%; top: 5px; font: inherit;">Try it free for 7 days<span>, then ₹1650 a month</span></p>
+                </div>
+                
+                <div class="form_main">
+                    <form action="/subscribe/register_free_trial" class="sign_up" id="signUPFORM">
+                        <label for="E-mail" id="email_form1" style="top: 35%; font-weight: bolder;">Email address</label><br>
+                        <input type="email" name="email" id="email_form" style="width: 62%; height: 15%; top: 45%;">
+                        <button id="form_button" style="height: 15%; width: 25%; top: 45%; font-weight: bold;">Join Now</button><br>
+                        <input type="checkbox" id="checkbox" style="top: 99%; left: 6%; top: 71%;">
+                        <label for="confirmation" id="checkbox_text" style="top: 71%; font-family: inherit; ">I want to hear from Treehouse about products and services.</label>
+                    </form>
+                </div>
+            </section>
+
+            <!-- homepage tabs -->
+            <section class="homepage-tabs">
+                <a href="index.html" class="active">Courses</a>
+                <a href="https://teamtreehouse.com/techdegree">Techdegree</a>
+                <a href="https://teamtreehouse.com/teams">Teams</a>
+                <a href="https://teamtreehouse.com/how-it-works">How it works</a>
+            </section>
+
+            <!-- Courses description -->
+            <section class="course-description">
+                <div class="flexbox">
+                    <div class="upper border">
+                        <div class="inner">
+                            <div class="svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="videoCoursesComputer" role="img">
+                                    <title id="videoCoursesComputer">Computer with Play Button</title>
+                                    <defs><style>.bf1a2e9b-6023-4c62-ab5c-146017a23e4c{fill:#70e08d;opacity:0.8;}.a8e8d386-9608-4d7f-868c-987bf5874ae0,.fd6ea7a2-7da5-4808-ae40-1ae854d82e83{fill:none;stroke:#264e96;stroke-miterlimit:10;stroke-width:28px;}.a8e8d386-9608-4d7f-868c-987bf5874ae0{stroke-linecap:round;}</style></defs><g id="bfe48a78-72b0-4303-aa26-d163c94bcf66" data-name="lines"><rect class="bf1a2e9b-6023-4c62-ab5c-146017a23e4c" x="552.0559" width="647.9441" height="476.121" rx="55.4187" transform="translate(1752.0559 476.121) rotate(180)"></rect><rect class="fd6ea7a2-7da5-4808-ae40-1ae854d82e83" x="389.1402" y="963.5932" width="335.873" height="155.1391" rx="4.987"></rect><line class="a8e8d386-9608-4d7f-868c-987bf5874ae0" x1="897.4029" y1="1119.0887" x2="955.297" y2="1119.0887"></line><line class="a8e8d386-9608-4d7f-868c-987bf5874ae0" x1="158.8564" y1="1119.0887" x2="816.7031" y2="1119.0887"></line><rect class="a8e8d386-9608-4d7f-868c-987bf5874ae0" x="22" y="203.0464" width="1070.1534" height="760.5468" rx="38.5042"></rect><rect class="a8e8d386-9608-4d7f-868c-987bf5874ae0" x="123.6646" y="303.4703" width="866.8242" height="559.699" rx="10.8986"></rect><path class="fd6ea7a2-7da5-4808-ae40-1ae854d82e83" d="M659.6273,569.19,489.874,471.0586a12.74,12.74,0,0,0-19.1163,11.03V678.3512a12.74,12.74,0,0,0,19.1163,11.03L659.6273,591.25A12.74,12.74,0,0,0,659.6273,569.19Z"></path></g>
+                                    </svg>
+                            </div>
+                            <div class="text-course">
+                                <h2>Expert-led video courses for beginners and other skill levels</h2>
+                                <p>Find all the instructions you need to get an entry-level job in tech, even if you’ve never coded.
+                                    Not a beginner? Test out of subjects you already know with Compass.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper border">
+                        <div class="inner">
+                            <div class="svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="puzzlePiece" role="img">
+                                    <title id="puzzlePiece">Puzzle Piece</title>
+                                    <defs><style>.f56e27e8-4d9e-4a95-9371-4a4253ebca7e{fill:#fc8738;opacity:0.85;}.ff877244-02b7-4bd2-a5df-bb45e8a267ae{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px;}</style></defs><g id="b7ab977d-06f5-49ae-ad2d-f1853f2e17ec" data-name="color layering"><circle class="f56e27e8-4d9e-4a95-9371-4a4253ebca7e" cx="883.632" cy="883.632" r="316.3434"></circle></g><g id="e29e8c5c-f027-4ddc-bed1-6f29ed5597be" data-name="lines"><line class="ff877244-02b7-4bd2-a5df-bb45e8a267ae" x1="883.6271" y1="962.4318" x2="883.6271" y2="747.1661"></line><path class="ff877244-02b7-4bd2-a5df-bb45e8a267ae" d="M883.6271,453.5438V267.9888a15,15,0,0,0-15-15H599.0425"></path><path class="ff877244-02b7-4bd2-a5df-bb45e8a267ae" d="M883.632,453.5334a162.1249,162.1249,0,1,0-5.752,296.21"></path><path class="ff877244-02b7-4bd2-a5df-bb45e8a267ae" d="M305.7752,252.9888a162.1249,162.1249,0,1,1,296.21-5.752"></path><path class="ff877244-02b7-4bd2-a5df-bb45e8a267ae" d="M305.206,252.9888H38.1879a15,15,0,0,0-15,15v679.443a15,15,0,0,0,15,15H883.632"></path></g></svg>
+                            </div>
+                            <div class="text-course">
+                                <h2>In-Demand Topics For Developers and Designers</h2>
+                                <p>Stay up to date with your skills. Learn the languages, frameworks, and principles required for the most
+                                    in-demand careers in tech.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper">
+                        <div class="inner">
+                            <div class="svg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" aria-labelledby="ladderTrack" role="img">
+                                    <title id="ladderTrack">Ladder Moving Up</title>
+                                    <defs><style>.e80a6d2f-dec4-48d6-a284-5fe46782b06e{fill:#ecc148;opacity:0.83;}.a1fd50d8-912a-4c52-b841-11a42e037e6b{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px;}</style></defs><g id="b993368f-f2c1-42b3-8d65-ec7cdafd0bc6" data-name="color layering"><circle class="e80a6d2f-dec4-48d6-a284-5fe46782b06e" cx="883.6318" cy="316.3682" r="316.3273"></circle></g><g id="bccc0bb3-f052-45a4-83af-9c9f6e515c25" data-name="lines"><path class="a1fd50d8-912a-4c52-b841-11a42e037e6b" d="M261.1445,484.1894V140.4643a61.8322,61.8322,0,0,1,61.8322-61.8322h6.6261a61.8323,61.8323,0,0,1,61.8323,61.8322v973.517a61.8323,61.8323,0,0,1-61.8323,61.8322h-6.6261a61.8322,61.8322,0,0,1-61.8322-61.8322V906.667"></path><line class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x1="261.1445" y1="830.9449" x2="261.1445" y2="702.5145"></line><rect class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x="808.5649" y="78.6321" width="130.2905" height="1097.1815" rx="61.8322"></rect><rect class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x="547.2329" y="418.6579" width="105.5342" height="417.1299" transform="translate(-27.2228 1227.2228) rotate(-90)"></rect><rect class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x="547.2329" y="139.2137" width="105.5342" height="417.1299" transform="translate(252.2214 947.7786) rotate(-90)"></rect><rect class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x="547.2329" y="698.102" width="105.5342" height="417.1299" transform="translate(-306.667 1506.667) rotate(-90)"></rect><line class="a1fd50d8-912a-4c52-b841-11a42e037e6b" x1="261.1445" y1="627.2228" x2="261.1445" y2="465.7708"></line></g></svg>
+                            </div>
+                            <div class="text-course">
+                                <h2>Segment your learning with tracks</h2>
+                                <p>Each of our Tracks is a mini-program designed to teach you a particular set of skills. Need to learn a
+                                    new skill set? Enroll in a Track, and your learning path is all mapped out.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper">
+                        <div class="inner">
+                            <div class="svg">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{opacity:0.8;fill:#70E08D;enable-background:new    ;}
+                                        .st1{fill:none;stroke:#264E96;stroke-width:28;stroke-miterlimit:10;}
+                                        .st2{fill:#264E96;}
+                                        .st3{fill:none;stroke:#264E96;stroke-width:28;stroke-linecap:round;stroke-miterlimit:10;}
+                                        .st4{fill:none;stroke:#264E96;stroke-width:20;stroke-miterlimit:10;}
+                                        .st5{fill:none;stroke:#264E96;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+                                        .st6{enable-background:new    ;}
+                                    </style>
+                                    <title id="interactiveBrowserWindow">Interactive Browser Window</title>
+                                    <g id="f8037e53-0ffd-4adb-a9eb-e6482d22ac64">
+                                        <path class="st0" d="M1144.6,1200H607.5c-30.6,0-55.4-24.8-55.4-55.4V779.3c0-30.6,24.8-55.4,55.4-55.4h537.1
+                                            c30.6,0,55.4,24.8,55.4,55.4v365.3C1200,1175.2,1175.2,1200,1144.6,1200z"></path>
+                                        <line class="st1" x1="22.8" y1="353" x2="1109.1" y2="353"></line>
+                                        <circle class="st2" cx="106.6" cy="283.5" r="21.2"></circle>
+                                        <circle class="st2" cx="178.1" cy="283.5" r="21.2"></circle>
+                                        <circle class="st2" cx="249.6" cy="283.5" r="21.2"></circle>
+                                        <path class="st3" d="M63.1,214.2h1007.6c21.6,0,39,17.5,39,39v693.5c0,21.6-17.5,39-39,39H63.1c-21.6,0-39-17.5-39-39V253.2
+                                            C24,231.7,41.5,214.2,63.1,214.2z"></path>
+                                        <path class="st4" d="M572,633.1L624,785c1.9,5.7,8.1,8.7,13.8,6.7c1.6-0.5,3-1.4,4.2-2.6l34.4-64.9c0.2-0.3,0.4-0.6,0.7-0.7
+                                            l64.8-34.3c4.2-4.2,4.2-11.1,0-15.3c-1.2-1.2-2.6-2.1-4.2-2.6l-151.9-51.9c-5.7-1.9-11.8,1.1-13.8,6.7
+                                            C571.3,628.4,571.3,630.9,572,633.1z"></path>
+                                        <line class="st5" x1="738.3" y1="785.5" x2="676.6" y2="723.9"></line>
+                                        <g class="st6">
+                                            <path class="st2" d="M285.2,582.7l42.7-96.4c3-6.7,8.4-10.7,15.8-10.7h1.6c7.4,0,12.6,4,15.6,10.7l42.7,96.4
+                                                c0.9,1.9,1.4,3.7,1.4,5.4c0,7.2-5.6,13-12.8,13c-6.3,0-10.5-3.7-13-9.3l-8.2-19.2H317l-8.6,20.1c-2.3,5.3-6.8,8.4-12.4,8.4
+                                                c-7,0-12.4-5.6-12.4-12.6C283.6,586.5,284.3,584.6,285.2,582.7z M361,548.7l-17-40.4l-17,40.4H361z"></path>
+                                        </g>
+                                        <g class="st6">
+                                            <path class="st2" d="M744.8,491c0-7.5,6-13.5,13.5-13.5h43.4c14,0,25,3.8,32,10.8c5.6,5.6,8.4,12.4,8.4,20.8v0.3
+                                                c0,13.8-7.3,21.5-16.1,26.4c14.2,5.4,22.9,13.7,22.9,30.1v0.3c0,22.4-18.2,33.6-45.9,33.6h-44.8c-7.5,0-13.5-6-13.5-13.5V491z
+                                                 M795.9,527c11.9,0,19.4-3.8,19.4-13v-0.3c0-8-6.3-12.6-17.7-12.6H771V527H795.9z M803.1,576.4c11.9,0,19.1-4.2,19.1-13.3v-0.3
+                                                c0-8.2-6.1-13.3-20-13.3H771v27H803.1z"></path>
+                                        </g>
+                                        <g class="st6">
+                                            <path class="st2" d="M286.6,796v-0.3c0-34.8,26.2-63.4,63.9-63.4c18.4,0,30.8,4.9,41,12.4c2.8,2.1,5.2,6,5.2,10.7
+                                                c0,7.4-6,13.1-13.3,13.1c-3.7,0-6.1-1.4-8-2.6c-7.5-5.6-15.4-8.8-25-8.8c-20.7,0-35.5,17.2-35.5,38.2v0.4
+                                                c0,21,14.5,38.5,35.5,38.5c11.4,0,18.9-3.5,26.6-9.6c2.1-1.8,4.9-3,8.1-3c6.8,0,12.6,5.6,12.6,12.4c0,4.2-2.1,7.5-4.5,9.6
+                                                c-11,9.6-24,15.4-43.6,15.4C313.4,859,286.6,831.2,286.6,796z"></path>
+                                        </g>
+                                    </g>
+                                    </svg>
+                            </div>
+                            <div class="text-course">
+                                <h2>Interactive learning</h2>
+                                <p>Our courses have quizzes and code challenges to keep you engaged—because the best way to learn is
+                                    by practicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MID PAGE sign_up -->
+            <section class="laptop_bg_section" style="background-image: url(img/svgFILES/svg0\(1\).svg), url(img/svgFILES/svg0.svg);">
+                <div class="laptop_bg_senior_div">
+                    <h2>
+                        Start your learning journey today!
+                    </h2>
+                    <h3>
+                        with a free 7-day trial, then ₹2,650/month
+                    </h3>
+                    <div class="laptop_bg_sign_div">
+                        <a href="https://teamtreehouse.com/subscribe/new?trial=yes">Sign Up Now</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COURSE-DESCRIPTION -->
+            <section class="course-description">
+                <div class="course-description-parent-div">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" aria-labelledby="compass-guiding" role="img"><title id="compass-guiding">Guiding Compass</title><defs><style>.afc9f322-363a-476a-83ce-52286af4dc11{fill:#ecc148;opacity:0.85;}.ad0ca215-5216-438c-9fcc-0c7056e45ff9,.e68d6ddb-54b8-4756-9a14-b8120f8d3acc{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;}.e68d6ddb-54b8-4756-9a14-b8120f8d3acc{stroke-width:28px;}.ad0ca215-5216-438c-9fcc-0c7056e45ff9{stroke-width:20px;}</style></defs><g id="b52830a9-7843-4641-be10-a4033c315638" data-name="color layering"><circle class="afc9f322-363a-476a-83ce-52286af4dc11" cx="883.632" cy="316.368" r="316.3434"></circle></g><g id="bda01635-4c9a-4906-98d0-df99879d8c88" data-name="lines"><circle class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" cx="486.3003" cy="600" r="463.7865"></circle><circle class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" cx="486.3003" cy="600" r="76.8679"></circle><path class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" d="M841.1274,600c0,195.9656-158.8615,354.8271-354.8271,354.8271"></path><path class="e68d6ddb-54b8-4756-9a14-b8120f8d3acc" d="M131.4732,600c0-195.9656,158.8615-354.8271,354.8271-354.8271"></path><path class="ad0ca215-5216-438c-9fcc-0c7056e45ff9" d="M539.74,653.6352,717.6951,383.741c7.7738-11.79-3.541-23.1048-15.3311-15.3311L432.47,546.3648"></path><path class="ad0ca215-5216-438c-9fcc-0c7056e45ff9" d="M432.47,546.3648,254.515,816.259c-7.7738,11.79,3.541,23.1048,15.331,15.3311L539.74,653.6352"></path></g></svg>
+                       <h3>100 Days of Code</h3>
+                        <p>
+                            Transform your life by committing to learning for 30 minutes a day for a hundred days. You’ll get email reminders, plus a complementary podcast, to help you in your learning journey.
+                        </p>
+                        <a href="https://join.teamtreehouse.com/100-days-of-code/">Start Your Journey</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" aria-labelledby="floatingChatBoxes" role="img"><title id="floatingChatBoxes">Floating Chat Boxes</title><defs><style>.ecad261a-b6a1-4733-9be0-cc034a3c76bb{opacity:0.8;}.a93a9ca7-ce7c-4fe2-9ca5-58685db4d22f{fill:#70e08d;}.e40b7050-3f08-4566-b9d2-17ac37833f2c{fill:none;stroke:#264e96;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px;}.b683d6ae-9df3-4777-bce1-9ac2c1abd37a{fill:#264e96;}</style></defs><g id="b8dba19d-fe17-412f-9567-5316f955cbd1" data-name="lines"><g class="ecad261a-b6a1-4733-9be0-cc034a3c76bb"><rect class="a93a9ca7-ce7c-4fe2-9ca5-58685db4d22f" x="590.8297" y="752.3706" width="609.1703" height="447.6294" rx="55.4187"></rect></g><path class="e40b7050-3f08-4566-b9d2-17ac37833f2c" d="M876.83,476.7205h92.7569a53.831,53.831,0,0,1,53.831,53.8309V872.4769c0,29.107-25.6882,50.5089-52.2574,53.5427a3.4461,3.4461,0,0,0-3.0681,3.4232c-.0019,18.3405-.0018,110.3827-.0018,110.2378a15.4842,15.4842,0,0,1-24.8442,12.335s-134.65-116.065-145.1987-125.1589a2.264,2.264,0,0,0-1.4862-.549H459.3257a53.831,53.831,0,0,1-53.831-53.8309V671.1638"></path><path class="e40b7050-3f08-4566-b9d2-17ac37833f2c" d="M786.79,88.3a66.566,66.566,0,0,0-66.557-65.4852H89.2613A66.5656,66.5656,0,0,0,22.6957,89.38V512.1945c0,35.87,31.5481,62.2765,64.2825,66.17a4.635,4.635,0,0,1,4.1312,4.5835c.0023,23.37.0023,136.0054.0023,136.0054a19.1473,19.1473,0,0,0,30.7215,15.2531s171.3736-147.72,180.0182-155.1729a1.1286,1.1286,0,0,1,.7461-.2734h417.636a66.5655,66.5655,0,0,0,66.5655-66.5655V89.38Q786.799,88.8392,786.79,88.3Z"></path><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="299.1004" cy="299.96" r="29.9178"></circle><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="404.7475" cy="298.0901" r="29.9178"></circle><circle class="b683d6ae-9df3-4777-bce1-9ac2c1abd37a" cx="510.3946" cy="298.0901" r="29.9178"></circle></g></svg>
+                        <h3>Free Resources</h3>
+                        <p>
+                            Our Tech Explorer's Toolkit is packed with free resources for anyone curious about getting a job in tech. No
+                            matter what stage you're at in your journey into tech, our bi-monthly Toolkit will bring the resources you
+                            need straight to your inbox.
+                        </p>
+                        <a href="https://join.teamtreehouse.com/treehouse-toolkit/">Join Our Mailing List</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" aria-labelledby="group-of-people" role="img"><title id="group-of-people">Group of People</title><defs><style>.b587744a-280b-419d-80f0-a181246ba84a{fill:#fc8738;opacity:0.85;}.b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64,.f4c781bf-7475-4360-a703-c276805c52d0{fill:none;stroke:#264e96;stroke-miterlimit:10;stroke-width:28px;}.f4c781bf-7475-4360-a703-c276805c52d0{stroke-linecap:round;}</style></defs><g id="a7521373-4aaf-4116-855d-df05c7e9b980" data-name="color layering"><circle class="b587744a-280b-419d-80f0-a181246ba84a" cx="883.632" cy="316.368" r="316.3434"></circle></g><g id="a408dfb6-ec4b-4d33-b68d-9f56b2f6e84c" data-name="lines"><path class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" d="M540.3817,552.0573h35.99a211.1,211.1,0,0,1,211.1,211.1V890.27a39.8047,39.8047,0,0,1-39.8047,39.8047H369.0867A39.8047,39.8047,0,0,1,329.282,890.27V763.157A211.1,211.1,0,0,1,540.3817,552.0573Z"></path><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="558.3765" cy="339.4157" r="131.5024"></circle><path class="f4c781bf-7475-4360-a703-c276805c52d0" d="M847.8372,578.8137A186.5963,186.5963,0,0,1,931.91,558.94h0c103.4855,0,187.3772,83.8916,187.3772,187.3772V836.79a31.3317,31.3317,0,0,1-31.3317,31.3317H890.3267"></path><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="931.9097" cy="377.4225" r="107.5564"></circle><path class="f4c781bf-7475-4360-a703-c276805c52d0" d="M288.82,578.8137a186.5963,186.5963,0,0,0-84.0723-19.874h0C101.2615,558.94,17.37,642.8313,17.37,746.3169V836.79a31.3317,31.3317,0,0,0,31.3317,31.3317H246.33"></path><circle class="b3ac7aa8-d5ea-4e21-9401-7e05b3ee2c64" cx="204.7472" cy="377.4225" r="107.5564"></circle></g></svg>
+                        <h3>Networking</h3>
+                        <p>
+                            Join a lively and supportive community of students on the Treehouse forums to network, get help, and hang out
+                            with others who are studying the same topics as you.
+                        </p>
+                        <a href="https://teamtreehouse.com/community/topic:21st-century-skills">Network With Us</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MIDDLE_POSTER -->
+            <section class="middle-poster" style="background-image: url(img/jpeg/middle_poster_bg_image.png)"> 
+                <div>
+                    <img src="img/jpeg/middle_poster.png" alt="middle_poster_alternate">
+                  
+                </div>
+            </section>
+
+            <!-- EXPLORE-TREEHOUSE -->
+            <section class="explore_treehouse">
+                <div class="explore_div1">
+                    <div class="explore_div1_inner">
+                        <h2>
+                            Build a Portfolio, Create a Network, and Land Your Dream Programming Job
+                        </h2>
+                        <p>
+                            Techdegree is a bootcamp-tier program that guides you through a full curriculum
+                            that includes a portfolio of curated projects, workshops, quizzes, and access to the exclusive Treehouse Slack
+                            community.
+                        </p>
+                        <div>
+                            <a href="https://teamtreehouse.com/techdegree">Explore Techdegree</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore_div2">                                                                              
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 40 8" class="curriculum-icon" aria-labelledby="curriculumIcon1119181" role="img"><title id="curriculumIcon1119181">Curriculum Steps</title><path d="M20,8c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S22.2,8,20,8z M36,8c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S38.2,8,36,8z M4,8
+                            C1.8,8,0,6.2,0,4s1.8-4,4-4s4,1.8,4,4S6.2,8,4,8z M9.9,5C9.4,5,9,4.6,9,4s0.4-1,0.9-1h4.1C14.6,3,15,3.4,15,4s-0.4,1-0.9,1H9.9z
+                             M25.9,5C25.4,5,25,4.6,25,4s0.4-1,0.9-1h4.1C30.6,3,31,3.4,31,4s-0.4,1-0.9,1H25.9z"></path></svg>
+                            <p>Curated Curriculum and Projects</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 40 40" class="project-review-icon" aria-labelledby="projectReviewIcon120186" role="img"><title id="projectReviewIcon120186">Folder With Magnifying Glass</title><path d="M16.2,28H2.4c-0.6,0-1.2-0.2-1.7-0.7c-0.4-0.4-0.7-1-0.7-1.7V3.8l0,0l0-1.3C0,1.1,1.1,0,2.5,0h5.6c1.4,0,2.5,1.1,2.5,2.5
+                            v1.3h21c1.3,0,2.4,1.1,2.4,2.4v11.4c-3.1-2.6-7.4-3.2-11.2-1.7C18.7,17.5,16,21.6,16,26C16,26.7,16.1,27.4,16.2,28z M34.2,31.4
+                            l5.2,5.2c0.8,0.8,0.8,2,0,2.8c-0.8,0.8-2,0.8-2.8,0c0,0,0,0,0,0L31.2,34c-1.3,0.7-2.7,1-4.2,1c-5,0-9-4-9-9c0-3.6,2.2-6.9,5.6-8.3
+                            c3.4-1.4,7.2-0.6,9.8,2s3.3,6.4,2,9.8C35,30.1,34.7,30.8,34.2,31.4z M24.7,20.5C22.5,21.4,21,23.6,21,26c0,3.3,2.7,6,6,6
+                            c2.4,0,4.6-1.5,5.5-3.7c0.9-2.2,0.4-4.8-1.3-6.5C29.5,20,26.9,19.5,24.7,20.5z"></path></svg>
+                        <p>Project Reviews</p>    
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 40 31" class="community-icon" aria-labelledby="communityIcon4054465" role="img"><title id="communityIcon4054465">Community</title><path d="M8,28H0.6C0.3,28,0,27.7,0,27.4v-5C0,18.3,3.5,15,7.8,15h1.5c0.9,0,1.8,0.2,2.7,0.5c-0.2,0.2-0.5,0.4-0.7,0.6
+                            c-2.1,2-3.3,4.7-3.3,7.6V28z M3,8c0-2.8,2.2-5,4.8-5c1.3,0,2.6,0.6,3.5,1.6c-0.6,2-0.3,4.1,0.6,6C11.1,12.1,9.5,13,7.8,13
+                            C5.2,13,3,10.8,3,8z M32.2,15c4.3,0,7.8,3.3,7.8,7.4v5c0,0.3-0.3,0.6-0.6,0.6H32v-4.4c0-2.8-1.2-5.6-3.3-7.6
+                            c-0.2-0.2-0.5-0.4-0.7-0.6c0.9-0.3,1.8-0.5,2.7-0.5H32.2z M27.6,4.6c0.9-1,2.2-1.6,3.5-1.6C33.8,3,36,5.2,36,8c0,2.8-2.2,5-4.8,5
+                            c-1.7,0-3.3-0.9-4.2-2.4C27.9,8.7,28.2,6.6,27.6,4.6z M30,24.1v6.1c0,0.5-0.4,0.9-0.9,0.9H10.9c-0.5,0-0.9-0.4-0.9-0.9v-6.1
+                            c0-5,4.1-9.1,9.1-9.1h1.7C25.9,15,30,19.1,30,24.1z M23.8,10.7c-2.4,2.3-6.2,2.3-8.6,0s-2.4-6.1,0-8.4s6.2-2.3,8.6,0
+                            S26.2,8.4,23.8,10.7z"></path></svg>
+                        <p>Exclusive Slack Community</p>    
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 40 40" class="courses-plus-icon" aria-labelledby="coursesPlusIcon7748339" role="img"><title id="coursesPlusIcon7748339">Courses Plus Icon</title><path d="M34,4V1c0-0.6,0.4-1,1-1s1,0.4,1,1v3h3c0.6,0,1,0.4,1,1s-0.4,1-1,1h-3v3c0,0.6-0.4,1-1,1s-1-0.4-1-1V6h-3c-0.6,0-1-0.4-1-1
+                            s0.4-1,1-1H34z M6,32v-5c0-0.6,0.4-1,1-1s1,0.4,1,1v5h5c0.6,0,1,0.4,1,1s-0.4,1-1,1H8v5c0,0.6-0.4,1-1,1s-1-0.4-1-1v-5H1
+                            c-0.6,0-1-0.4-1-1s0.4-1,1-1H6z M18,17v-6.5C18,9.1,19.1,8,20.5,8S23,9.1,23,10.5V17h6.5c1.4,0,2.5,1.1,2.5,2.5S30.9,22,29.5,22H23
+                            v6.5c0,1.4-1.1,2.5-2.5,2.5S18,29.9,18,28.5V22h-6.5C10.1,22,9,20.9,9,19.5s1.1-2.5,2.5-2.5H18z"></path></svg>
+                        <p>Plus everything from Courses</p>    
+                    </div>
+                </div>
+            </section>
+            <hr>
+            
+            <!-- Career-Companies -->
+            <section class="companies">
+                <h2>Graduates starting their career at</h2>
+                <div class="company-row1">
+                    <div>
+                        <img src="img/jpeg/nike_logo.png" alt="nike-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/adobe_logo.png" alt="adobe-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/mailchimp_logo.png" alt="mailchimp-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/vacasa_logo.png" alt="vacasa-logo">
+                    </div>
+                </div>
+                <div class="company-row2">
+                    <div>
+                        <img src="img/jpeg/hubspot_logo.png" alt="hubspot-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/Chegg_logo.png" alt="Chegg-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/airbnb_logo.png" alt="airbnb-logo">
+                    </div>
+                    <div>
+                        <img src="img/jpeg/verizon_logo.png" alt="verizon-logo">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Take A Quiz -->
+            <section class="quiz">
+                <div class="quiz-innerDiv">
+                    <div id="quiz-imagediv">
+                        <img src="img/jpeg/quiz.png" alt="Quiz">
+                    </div>
+                    <div id="quiz-description">
+                        <div id="quiz-description-innerDiv">
+                            <h3>Not sure where to start?</h3>
+                            <p>No problem, we are here to help! Just answer a couple of
+                                questions related to you interests and goals, and we will help set you on the right path on your learning
+                                journey.</p>
+                            <a href="https://teamtreehouse.com/get-started#step-243"><b>Take Quiz</b></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inspiring Stories -->
+        <section class="stories" style="background-image:url(img/svgFILES/stories_bg.svg)">
+            <br>
+            <h2>Success stories with Treehouse</h2>
+            <h5 style="line-height: 1.5rem !important; margin-bottom: 19px !important;">Treehouse’s mission is to diversify the tech industry through accessible
+                education, unlocking the door to opportunity, and empowering people to achieve their dreams.</h5>
+            <div class="stories-outerDiv">
+                <div class="stories-innerDiv">
+                    <div class="stories-innerDiv-image">
+                        <img src="img/jpeg/malina.jpg" alt="malina" style="width: 264.65px; height: 519.8px;">
+                    </div>
+                    <div class="stories-innerDiv-content">
+                        <div class="content-innerDiv">
+                                <h3>Malina Tran</h3>
+                                <h6>New York, New York</h6>
+                                <p style="line-height: 1.5rem; margin-bottom: 22px;">In nine months, I transformed from being an absolute novice (knowing nothing beyond very fundamental HTML and CSS) to working professionally as a developer. The great thing is that I was learning with Treehouse every step along the way. After getting my feet wet with HTML and CSS, I decided to tackle Ruby, a back-end programming language with syntax that is pretty beginner friendly...</p>
+                                <div class="content-button" style="margin-bottom: 30px;">
+                                    <a href="https://teamtreehouse.com/stories/malina-tran" style="color:#fff">Read More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stories-bottom-button">
+                <button class="prev_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="left-arrow-icon"><path d="M0.3,5.3C0.3,5.3,0.3,5.3,0.3,5.3l5-5c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L3.4,5H11c0.6,0,1,0.4,1,1s-0.4,1-1,1H3.5l3.3,3.3c0.4,0.4,0.4,1,0,1.4c-0.4,0.4-1,0.4-1.4,0l-5-5C-0.1,6.3-0.1,5.7,0.3,5.3z"></path></svg> 
+                    Previous
+                </button>
+                <button class="next_button">
+                    Next
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 12" class="right-arrow-icon"><path d="M11.7,6.7l-5,5c-0.4,0.4-1,0.4-1.4,0c-0.4-0.4-0.4-1,0-1.4L8.6,7H1C0.5,7,0,6.6,0,6s0.4-1,1-1h7.6L5.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l5,5c0,0,0,0,0,0C12.1,5.7,12.1,6.3,11.7,6.7z"></path></svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- QandA -->
+        <section class="qANDa_section">
+            <div class="question_outerDiv">
+                <h2>Q&A</h2>
+                <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>How long does my subscription last?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>Do you have a free trial?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>  
+                <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>What can I do if I'm stuck on a learning task?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div> 
+                 <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>How do I download videos for offline viewing?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>  
+                <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>Do you offer a Group Membership at a discounted rate?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>  
+                <div class="question_div">
+                    <a class="toggle">
+                        <span class="outer_toggle_span">
+                            <span>
+                                <p>What if I have a question that isn't answered here?</p>
+                            </span>
+                            <span class="svg_span">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 12 7.5" class="chevron-icon" aria-labelledby="chevron3349627" role="img"><title id="chevron3349627">Chevron</title><g><path d="M6,7.5L0.3,1.7c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0L6,4.6l4.3-4.3c0.4-0.4,1-0.4,1.4,0c0.4,0.4,0.4,1,0,1.4L6,7.5z"></path></g></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="qANDa_buttonDiv">
+                <a href="https://teamtreehouse.com/subscribe/new?trial=yes">Start Your Free Trial</a>
+            </div>
+        </section>
+        <img src="img/svgFILES/svg28.svg" alt="rainbow_svg">
+
+        </div>
+        <footer>
+            
+            <div class="footer_outerDiv">
+                <!-- logodiv -->
+                <div class="logoDiv">
+                    <div>
+                        <a href="https://teamtreehouse.com/">
+                            <svg xmlns="http://www.w3.org/2000/svg" alt="" class="treehouse-icon nav-item-logo-icon"  style="fill: #5fcf80;" preserveAspectRatio="xMinYMin meet" viewBox="0 0 139 32" aria-labelledby="treehouseLogo7949978" role="img"><title id="treehouseLogo7949978">Treehouse Logo</title><path class="icon-treehouse" style="fill: #565656;" d="M42.8 21.1c-0.4 0.1-0.9 0.2-1.4 0.2 -1 0-1.4-0.6-1.4-1.6v-4.5h2.8c0.7 0 1.4-0.5 1.4-1.3s-0.6-1.3-1.4-1.3H40v-1.5c0-0.9-0.7-1.5-1.5-1.5S37 10.3 37 11.1v8.7c0 2.5 1.2 4.3 4 4.3 0.8 0 1.9-0.1 2.7-0.5 0.7-0.3 0.9-0.8 0.9-1.3C44.6 21.6 43.9 20.9 42.8 21.1zM52.8 12.2c-0.4-0.1-1.2-0.2-1.9-0.2 -2.5 0-3.9 1.5-3.9 3.8v6.8c0 0.8 0.7 1.5 1.5 1.5s1.5-0.7 1.5-1.5v-6.2c0-1 0.4-1.4 1.1-1.4s1.1 0.2 1.7 0.2c0.9 0 1.4-0.8 1.4-1.4C54.1 13 53.7 12.5 52.8 12.2zM61.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C66 14 64 12 61.1 12zM63 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C63.2 17 63.2 17.1 63 17.1zM73.1 12c-2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3h5.7c1 0 1.5-0.6 1.5-1.5v-0.5C78 14 76 12 73.1 12zM75 17.1h-4.2c0-1.5 0.7-2.5 2.3-2.5 1.4 0 2.2 0.9 2.1 2.2C75.2 17 75.2 17.1 75 17.1zM123.6 17l-1.6-0.4c-1-0.2-1.3-0.5-1.3-1s0.5-0.9 1.6-0.9c0.6 0 1.3 0.2 1.9 0.5 0.7 0.4 1.5 0.3 1.9-0.2 0.5-0.5 0.5-1.4-0.1-2 -0.8-0.6-2.2-1-3.6-1 -2.6 0-4.5 1.3-4.5 3.7 0 1.9 1.4 2.9 3.2 3.4 0.9 0.2 0.8 0.2 1.6 0.4 0.9 0.2 1.3 0.6 1.3 1 0 0.6-0.5 1-1.7 1 -1 0-1.9-0.3-2.6-0.7 -0.7-0.5-1.5-0.3-1.9 0.3 -0.4 0.6-0.3 1.4 0.3 1.8 0.8 0.7 2.1 1.3 4.2 1.3 2.6 0 4.6-1.4 4.6-3.8C126.9 18.6 125.8 17.5 123.6 17zM137.5 19.1c1 0 1.5-0.6 1.5-1.5l0 0v-0.5c0-3.1-2-5.1-4.9-5.1 -2.8 0-4.8 1.8-5.1 4.7 0 0.7-0.1 1.9 0 2.8 0.2 2.8 2.2 4.7 5.2 4.7 1.4 0 2.7-0.3 3.5-0.8 0.6-0.4 0.7-0.8 0.7-1.2 0-0.8-0.7-1.6-1.9-1.2 -0.7 0.3-1.5 0.5-2.3 0.5 -1.4 0-2.5-0.7-2.5-2.1v-0.3H137.5zM134.1 14.6c1.4 0 2.2 0.9 2.1 2.2 0 0.2-0.1 0.3-0.2 0.3h-4.2C131.8 15.6 132.6 14.6 134.1 14.6zM97.5 12c-3 0-5.2 1.9-5.5 4.5 -0.1 0.9-0.1 2.3 0 3.2 0.2 2.6 2.5 4.5 5.5 4.5s5.2-1.9 5.4-4.5c0.1-0.9 0.1-2.2 0-3.1C102.7 13.9 100.5 12 97.5 12zM99.9 19.2c-0.1 1.3-1 2.1-2.4 2.1s-2.3-0.9-2.4-2.1c0-0.6 0-1.6 0-2.2 0.1-1.3 1-2.1 2.4-2.1s2.3 0.9 2.4 2.1C100 17.6 100 18.6 99.9 19.2zM85.6 12c-1.1 0-2.3 0.4-2.7 0.9l0 0V9.7c0-0.9-0.6-1.5-1.4-1.5s-1.4 0.7-1.4 1.5v12.9c0 0.8 0.7 1.5 1.5 1.5s1.4-0.7 1.4-1.5v-6.7c0.5-0.5 1.3-0.9 2.3-0.9 1.2 0 1.9 0.7 1.9 2.1v5.5c0 0.9 0.6 1.6 1.4 1.6 0.9 0 1.5-0.7 1.5-1.6v-5.7C90 13.7 88.4 12 85.6 12zM113.6 12.1c-0.8 0-1.5 0.7-1.5 1.5v7.1c-0.5 0.3-1.2 0.6-2.1 0.6 -1.2 0-2.1-0.7-2.1-2.1v-5.6c0-0.9-0.7-1.6-1.5-1.6 -0.9 0-1.4 0.7-1.4 1.6v5.7c0 3.1 1.8 4.8 4.9 4.8 2.3 0 3.9-0.8 4.6-1.3 0.4-0.2 0.5-0.5 0.5-1v-8.2C115 12.8 114.4 12.1 113.6 12.1z"></path><path class="icon-logo" d="M26 5.9c-1.1-0.6-2.8 0.4-3.8 2.2l-1.9 3.2c-0.7 1.3-0.6 2.9 0.3 4.2l0.1 0.1c0.9 1.2 2 2.4 2.4 2.8 0.2 0.2 0.4 0.5 0.5 0.9 0.3 1.1-0.3 2.3-1.5 2.6 -1.1 0.3-2.3-0.3-2.6-1.5 -0.1-0.3-0.1-0.6-0.1-0.8 0.1-0.5-0.1-1.2-0.8-2 -0.7-0.7-2 0.7-2.5 2.1v0.1c-0.4 1.4-0.7 2.7-0.6 2.8 0 0.1 0.1 0.1 0.1 0.2 0.6 1.2 0.2 2.6-1 3.2s-2.6 0.2-3.2-1 -0.2-2.6 1-3.2c0.1 0 0.1-0.1 0.2-0.1s0.3-0.6 0.6-1.4c0.2-0.7 0.3-1 0.4-1.3 0.1-0.4 0.3-1.4 0.2-1.8 -0.1-0.5-0.6-0.5-1.1-0.2 -0.3 0.2-0.9 0.7-1.1 0.9 -0.5 0.4-0.9 1-1.1 1.5 -0.1 0.2-0.3 0.5-0.5 0.7 -0.9 0.7-2.2 0.6-3-0.3 -0.7-0.9-0.6-2.2 0.3-3 0.3-0.2 0.6-0.4 0.9-0.4 0.5-0.1 2.3-1.2 3.4-2 0.2-0.1 0.5-0.4 0.6-0.5 0.3-0.4 0-0.7-0.3-0.7 -0.9 0.1-1.9 0.2-2.1 0.5 -0.1 0.1-0.2 0.3-0.4 0.4 -0.8 0.6-2 0.4-2.6-0.4s-0.4-2 0.4-2.6c0.3-0.3 0.8-0.4 1.1-0.4 0.7 0 2.5 0.4 3.9 0.1l0.4-0.1c1.5-0.3 3.3-1.6 4-2.9 0 0 0.7-1.2 1.5-2.7C19 3.6 18.9 1.9 18 1.4l-1.7-1c-0.9-0.5-2.2-0.5-3.1 0L1.6 7C0.7 7.5 0 8.7 0 9.7v12.8c0 1 0.7 2.2 1.6 2.7l11.6 6.6c0.9 0.5 2.3 0.5 3.1 0l11.6-6.6c0.9-0.5 1.6-1.7 1.6-2.7V9.7c0-1-0.7-2.2-1.6-2.7C27.9 7 27.1 6.5 26 5.9z"></path></svg>
+                        </a>
+                    </div>
+                    <p class="copyright_message">© 2021 Treehouse Island, Inc.</p>
+                </div>
+                <!-- 12 list div footer links -->
+                <div class="footer-links-div">
+                    <ul class="footer-links-ul">
+                        <li style="order: 1;">
+                            <a href="https://teamtreehouse.com/about">About</a>
+                        </li>
+                        <li style="order: 3;">
+                            <a href="https://blog.teamtreehouse.com/?_ga=2.81116180.2016504590.1622733952-605715461.1622533810">Blog</a>
+                        </li>
+                        <li style="order: 5;">
+                            <a href="https://teamtreehouse.com/jobs">Careers</a>
+                        </li>
+                        <li style="order: 7;">
+                            <a href="https://teamtreehouse.com/affiliate-program">Affiliate Program</a>
+                        </li>
+                        <li style="order: 9;">
+                            <a href="https://teamtreehouse.com/support">Contact</a>
+                        </li>
+                        <li style="order: 10;">
+                            <a href="https://teamtreehouse.com/community">Community</a>
+                        </li>
+                        <li style="order: 2;">
+                            <a href="https://teamtreehouse.com/library">Library</a>
+                        </li>
+                        <li style="order: 4;">
+                            <a href="https://teamtreehouse.com/terms">Terms</a>
+                        </li>
+                        <li style="order: 6;">
+                            <a href="https://teamtreehouse.com/tracks">Tracks</a>
+                        </li>
+                        <li style="order: 8;">
+                            <a href="https://teamtreehouse.com/privacy">Privacy</a>
+                        </li>
+                        <li style="order: 11;">
+                            <a href="https://join.teamtreehouse.com/libraries/">Treehouse for Libraries</a>
+                        </li>
+                        <li style="order: 12;">
+                            <a href="https://teespring.com/stores/teamtreehouse">Treehouse Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- media links div -->
+                <div class="media-links-div">
+                    <ul class="media-links-ul">
+                        <li>
+                            <a href="https://twitter.com/treehouse">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="twitter-icon" aria-labelledby="twitterIcon4947839" role="img"><title id="twitterIcon4947839">Twitter</title><path d="M19,8.3c-0.5,0.2-1,0.4-1.5,0.4c0.6-0.3,1-0.9,1.2-1.5c-0.5,0.3-1.1,0.5-1.7,0.7C16.5,7.3,15.8,7,15,7
+                                    c-1.5,0-2.7,1.2-2.7,2.8c0,0.2,0,0.4,0.1,0.6c-2.2-0.1-4.2-1.2-5.5-2.9C6.7,7.9,6.5,8.4,6.5,8.9c0,1,0.4,1.8,1.2,2.3
+                                    c-0.4,0-1.2-0.1-1.2-0.3c0,0,0,0,0,0c0,1.3,0.9,2.5,2.2,2.7c-0.2,0.1-0.4,0.1-0.7,0.1c-0.2,0-0.3,0-0.5-0.1c0.3,1.1,1.3,1.9,2.5,1.9
+                                    c-0.9,0.7-2.1,1.2-3.3,1.2c-0.2,0-0.4,0-0.6,0c1.2,0.8,2.6,1.2,4.1,1.2c4.9,0,7.6-4.2,7.6-7.9c0-0.1,0-0.2,0-0.4
+                                    C18.2,9.4,18.6,8.9,19,8.3z"></path></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://twitter.com/treehouse">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="youtube-icon" aria-labelledby="youtubeIcon6566544" role="img"><title id="youtubeIcon6566544">YouTube</title><path d="M19.5,8.2c-0.2-0.7-0.7-1.2-1.4-1.4C16.9,6.5,12,6.5,12,6.5s-4.9,0-6.1,0.3C5.2,7,4.7,7.6,4.5,8.2C4.2,9.5,4.2,12,4.2,12
+                                    s0,2.5,0.3,3.8c0.2,0.7,0.7,1.2,1.4,1.4c1.2,0.3,6.1,0.3,6.1,0.3s4.9,0,6.1-0.3c0.7-0.2,1.2-0.7,1.4-1.4c0.3-1.2,0.3-3.8,0.3-3.8
+                                    S19.8,9.5,19.5,8.2z M9.9,15V9l5.2,3L9.9,15z"></path></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://facebook.com/teamtreehouse">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="facebook-icon" aria-labelledby="facebookIcon8839846" role="img"><title id="facebookIcon8839846">Facebook</title><path d="M10.3,19.8V13H7.8v-2.8h2.5V8c0-2.4,1.5-3.8,3.7-3.8c1.1,0,2.2,0.2,2.2,0.2v2.4h-1.2c-1.2,0-1.6,0.8-1.6,1.5v1.8h2.7
+                                    L15.6,13h-2.3v6.8H10.3z"></path></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://linkedin.com/company/treehouse-island-inc-">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="linked-in-icon" aria-labelledby="linkedinIcon2770518" role="img"><title id="linkedinIcon2770518">LinkedIn</title><path d="M17.5,5.5h-11C6,5.5,5.6,6,5.5,6.5v11.1c0,0.5,0.4,0.9,1,0.9h11c0.5,0,0.9-0.4,1-0.9V6.5C18.5,6,18.1,5.5,17.5,5.5z
+                                    M9.4,16.6H7.5v-6.2h1.9V16.6z M8.4,9.5C7.8,9.5,7.3,9,7.3,8.4s0.5-1.1,1.1-1.1s1.1,0.5,1.1,1.1S9,9.5,8.4,9.5z M16.6,16.6h-1.9v-3
+                                   c0-0.7,0-1.7-1-1.7s-1.2,0.8-1.2,1.6v3.1h-1.9v-6.2h1.8v0.9c0.4-0.6,1-1,1.8-1c2,0,2.3,1.3,2.3,3L16.6,16.6z"></path></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://instagram.com/teamtreehouse">
+                                <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 24 24" class="instagram-icon" aria-labelledby="instagramIcon5290119" role="img"><title id="instagramIcon5290119">Instagram</title><path d="M16.6,18.5H7.4c-1,0-1.9-0.8-1.9-1.9V7.4c0-1,0.8-1.9,1.9-1.9h9.3c1,0,1.9,0.8,1.9,1.9v9.3C18.5,17.7,17.7,18.5,16.6,18.5z
+                                    M12,10.1c-1,0-1.9,0.8-1.9,1.9s0.8,1.9,1.9,1.9s1.9-0.8,1.9-1.9S13,10.1,12,10.1z M15.7,7.4c-0.6,0-0.9,0.4-0.9,0.9
+                                   s0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9S16.3,7.4,15.7,7.4z M16.6,12h-0.9c0,2-1.7,3.7-3.7,3.7S8.3,14,8.3,12H7.4v3.7
+                                   c0,0.6,0.4,0.9,0.9,0.9h7.4c0.6,0,0.9-0.4,0.9-0.9V12z"></path></svg>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+            
+        
+    </body>
+</html>
